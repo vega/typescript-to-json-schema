@@ -3,3 +3,6 @@ coverage/
 dist/
 node_modules/
 !auto.config.ts
+
+# local config for auto
+.env
