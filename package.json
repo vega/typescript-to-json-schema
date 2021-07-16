@@ -91,7 +91,8 @@
     "test:coverage": "yarn jest test/ --collectCoverage=true",
     "test:update": "cross-env UPDATE_SCHEMA=true yarn test:fast",
     "debug": "node -r ts-node/register --inspect-brk ts-json-schema-generator.ts",
-    "run": "ts-node ts-json-schema-generator.ts"
+    "run": "ts-node ts-json-schema-generator.ts",
+    "release": "yarn build && auto shipit"
   },
   "release": {
     "plugins": [
