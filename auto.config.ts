@@ -5,7 +5,6 @@ import { AutoRc } from "auto";
 export default function rc(): AutoRc {
     return {
         plugins: [
-            "magic-zero", // https://intuit.github.io/auto/docs/generated/magic-zero
             "npm",
             "conventional-commits",
             "first-time-contributor",
