@@ -38,13 +38,13 @@ export interface MyObject {
      * Some ignored comment description
      *
      * @description Export field description
-     * @default {"length": 10}
+     * @default {'length': 10}
      * @nullable
      */
     exportString: MyExportString;
     /**
      * @description Export field description
-     * @default "private"
+     * @default 'private'
      */
     privateString: MyPrivateString;
 
